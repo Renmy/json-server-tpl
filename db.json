@@ -1,33 +1,65 @@
 {
-  "projects": [
+  "todos":
+  [
     {
+      "userId": 1,
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "title": "delectus aut autem",
+      "completed": false
     },
     {
+      "userId": 1,
       "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
-    }
-  ],
-  "tasks": [
-    {
-      "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
+      "title": "quis ut nam facilis et officia qui",
+      "completed": false
     },
     {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
-    },
-    {
+      "userId": 1,
       "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "title": "fugiat veniam minus",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 4,
+      "title": "et porro tempora",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 5,
+      "title": "laboriosam mollitia et enim quasi adipisci quia provident illum",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 6,
+      "title": "qui ullam ratione quibusdam voluptatem quia omnis",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 7,
+      "title": "illo expedita consequatur quia in",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 8,
+      "title": "quo adipisci enim quam ut ab",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 9,
+      "title": "molestiae perspiciatis ipsa",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 10,
+      "title": "illo est ratione doloremque quia maiores aut",
+      "completed": true
     }
   ]
 }
