@@ -61,5 +61,139 @@
       "title": "illo est ratione doloremque quia maiores aut",
       "completed": true
     }
+  ],
+  "jobs": [
+    {
+      "userId": 1,
+      "id": 10,
+      "title": "illo est ratione doloremque quia maiores aut",
+      "company": {
+        "name": "My first Company"
+      }
+    }
+  ],
+  "companies": [
+    {
+      "id": 101,
+      "name": "Tech Innovations",
+      "address": "123 Tech Lane, Silicon Valley, CA",
+      "rating": 4.5
+    },
+    {
+      "id": 102,
+      "name": "Data Solutions Inc.",
+      "address": "456 Data Drive, New York, NY",
+      "rating": 4.7
+    },
+    {
+      "id": 103,
+      "name": "Innovative Products",
+      "address": "789 Product Road, Austin, TX",
+      "rating": 4.6
+    },
+    {
+      "id": 104,
+      "name": "Creative Designs Co.",
+      "address": "321 Design Street, San Francisco, CA",
+      "rating": 4.8
+    },
+    {
+      "id": 105,
+      "name": "Cloud Services Ltd.",
+      "address": "654 Cloud Avenue, Seattle, WA",
+      "rating": 4.4
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Software Engineer",
+      "description": "Develop and maintain software applications.",
+      "tags": ["JavaScript", "React", "Node.js"],
+      "creationDate": "2024-05-01",
+      "salaryRange": "$70,000 - $120,000",
+      "companyId": 101
+    },
+    {
+      "id": 2,
+      "title": "Backend Developer",
+      "description": "Build and maintain server-side applications.",
+      "tags": ["Java", "Spring", "Microservices"],
+      "creationDate": "2024-05-02",
+      "salaryRange": "$75,000 - $125,000",
+      "companyId": 101
+    },
+    {
+      "id": 3,
+      "title": "Data Scientist",
+      "description": "Analyze and interpret complex data sets.",
+      "tags": ["Python", "Machine Learning", "Data Analysis"],
+      "creationDate": "2024-05-02",
+      "salaryRange": "$80,000 - $130,000",
+      "companyId": 102
+    },
+    {
+      "id": 4,
+      "title": "Data Analyst",
+      "description": "Prepare and analyze data for business insights.",
+      "tags": ["SQL", "Excel", "Data Visualization"],
+      "creationDate": "2024-05-03",
+      "salaryRange": "$65,000 - $110,000",
+      "companyId": 102
+    },
+    {
+      "id": 5,
+      "title": "Product Manager",
+      "description": "Oversee product development and launch.",
+      "tags": ["Product Management", "Agile", "Scrum"],
+      "creationDate": "2024-05-03",
+      "salaryRange": "$90,000 - $140,000",
+      "companyId": 103
+    },
+    {
+      "id": 6,
+      "title": "Product Designer",
+      "description": "Design and optimize product interfaces.",
+      "tags": ["UI/UX", "Design", "Prototyping"],
+      "creationDate": "2024-05-04",
+      "salaryRange": "$70,000 - $120,000",
+      "companyId": 103
+    },
+    {
+      "id": 7,
+      "title": "UX Designer",
+      "description": "Design user interfaces and experiences.",
+      "tags": ["UI/UX", "Design", "Prototyping"],
+      "creationDate": "2024-05-04",
+      "salaryRange": "$60,000 - $100,000",
+      "companyId": 104
+    },
+    {
+      "id": 8,
+      "title": "Graphic Designer",
+      "description": "Create visual concepts and designs.",
+      "tags": ["Photoshop", "Illustrator", "Graphic Design"],
+      "creationDate": "2024-05-05",
+      "salaryRange": "$55,000 - $95,000",
+      "companyId": 104
+    },
+    {
+      "id": 9,
+      "title": "DevOps Engineer",
+      "description": "Manage and optimize infrastructure and deployments.",
+      "tags": ["DevOps", "AWS", "Docker"],
+      "creationDate": "2024-05-05",
+      "salaryRange": "$75,000 - $125,000",
+      "companyId": 105
+    },
+    {
+      "id": 10,
+      "title": "Cloud Architect",
+      "description": "Design and implement cloud solutions.",
+      "tags": ["Cloud Computing", "Azure", "Infrastructure"],
+      "creationDate": "2024-05-06",
+      "salaryRange": "$85,000 - $135,000",
+      "companyId": 105
+    }
   ]
 }
