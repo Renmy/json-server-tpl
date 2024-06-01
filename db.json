@@ -62,45 +62,61 @@
       "completed": true
     }
   ],
-  "jobs": [
-    {
-      "userId": 1,
-      "id": 10,
-      "title": "illo est ratione doloremque quia maiores aut",
-      "company": {
-        "name": "My first Company"
-      }
-    }
-  ],
+ 
   "companies": [
     {
       "id": 101,
-      "name": "Tech Innovations",
-      "address": "123 Tech Lane, Silicon Valley, CA",
+      "logo":"https://www.cubainformacion.tv/storage/portadas/2016/01/66750-la-ciencia-en-servicio-del-comercio.jpg?t=1700083467",
+      "name": "CIDCI Inc.",
+      "address": {
+        "street": "123 Tech Lane",
+        "city": "Silicon Valley",
+        "state": "CA"
+      },
       "rating": 4.5
     },
     {
       "id": 102,
+      "logo":"https://media.licdn.com/dms/image/C4E0BAQHTGgdoO46F-g/company-logo_200_200/0/1630589587674?e=1725494400&v=beta&t=P1mwK_m5WKav3RValIXZsUsivEfe9pNtBbsvfe0P6tQ",
       "name": "Data Solutions Inc.",
-      "address": "456 Data Drive, New York, NY",
+      "address": {
+        "street": "456 Data Drive",
+        "city": "New York",
+        "state": "NY"
+      },
       "rating": 4.7
     },
     {
       "id": 103,
+      "logo":"https://media.licdn.com/dms/image/C4D0BAQF9zCV8xOu0QA/company-logo_200_200/0/1655761173779/labiome_tech_logo?e=1725494400&v=beta&t=Qi2PTma4qLZAwx8Kcqqbs-MY-9y_4uVPHhKh5pGqmNc",
       "name": "Innovative Products",
-      "address": "789 Product Road, Austin, TX",
+      "address": {
+        "street": "789 Product Road",
+        "city": "Austin",
+        "state": "TX"
+      },
       "rating": 4.6
     },
     {
       "id": 104,
-      "name": "Creative Designs Co.",
-      "address": "321 Design Street, San Francisco, CA",
+      "logo":"https://media.licdn.com/dms/image/D560BAQFJANcNveon3g/company-logo_200_200/0/1709310943415/prabadin_corp_logo?e=1725494400&v=beta&t=jMGwl8wa4nuf0OfeLH5qJ9H24pkJIR61rezSxUz7Z5Y",
+      "name": "Prabadin Corp.",
+      "address": {
+        "street": "321 Design Street",
+        "city": "San Francisco",
+        "state": "CA"
+      },
       "rating": 4.8
     },
     {
       "id": 105,
+      "logo":"https://media.licdn.com/dms/image/C4E0BAQFdOATxNNIpgg/company-logo_200_200/0/1630631160607/universidad_de_las_ciencias_informticas_logo?e=1725494400&v=beta&t=JAk3nuA3sErLXPemPZHgu9VcYU5PIzoWcac0BWANk80",
       "name": "Cloud Services Ltd.",
-      "address": "654 Cloud Avenue, Seattle, WA",
+      "address": {
+        "street": "654 Cloud Avenue",
+        "city": "Seattle",
+        "state": "WA"
+      },
       "rating": 4.4
     }
   ],
@@ -109,91 +125,142 @@
       "id": 1,
       "title": "Software Engineer",
       "description": "Develop and maintain software applications.",
-      "tags": ["JavaScript", "React", "Node.js"],
+      "techs": [
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
       "creationDate": "2024-05-01",
-      "salaryRange": "$70,000 - $120,000",
-      "companyId": 101
+      "salaryRange": "$70K - $120K",
+      "companyId": 101,
+      "remote": "Remote"
     },
     {
       "id": 2,
       "title": "Backend Developer",
       "description": "Build and maintain server-side applications.",
-      "tags": ["Java", "Spring", "Microservices"],
+      "techs": [
+        "Java",
+        "Spring",
+        "Microservices"
+      ],
       "creationDate": "2024-05-02",
-      "salaryRange": "$75,000 - $125,000",
-      "companyId": 101
+      "salaryRange": "$75K - $125K",
+      "companyId": 101,
+      "remote": "Hybrid"
     },
     {
       "id": 3,
       "title": "Data Scientist",
       "description": "Analyze and interpret complex data sets.",
-      "tags": ["Python", "Machine Learning", "Data Analysis"],
+      "techs": [
+        "Python",
+        "Machine Learning",
+        "Data Analysis"
+      ],
       "creationDate": "2024-05-02",
-      "salaryRange": "$80,000 - $130,000",
-      "companyId": 102
+      "salaryRange": "$80K - $130K",
+      "companyId": 102,
+      "remote": "On Site"
     },
     {
       "id": 4,
       "title": "Data Analyst",
       "description": "Prepare and analyze data for business insights.",
-      "tags": ["SQL", "Excel", "Data Visualization"],
+      "techs": [
+        "SQL",
+        "Excel",
+        "Data Visualization"
+      ],
       "creationDate": "2024-05-03",
-      "salaryRange": "$65,000 - $110,000",
-      "companyId": 102
+      "salaryRange": "$65K - $110K",
+      "companyId": 102,
+      "remote": "Remote"
     },
     {
       "id": 5,
       "title": "Product Manager",
       "description": "Oversee product development and launch.",
-      "tags": ["Product Management", "Agile", "Scrum"],
+      "techs": [
+        "Product Management",
+        "Agile",
+        "Scrum"
+      ],
       "creationDate": "2024-05-03",
-      "salaryRange": "$90,000 - $140,000",
-      "companyId": 103
+      "salaryRange": "$90K - $140K",
+      "companyId": 103,
+      "remote": "Hybrid"
     },
     {
       "id": 6,
       "title": "Product Designer",
       "description": "Design and optimize product interfaces.",
-      "tags": ["UI/UX", "Design", "Prototyping"],
+      "techs": [
+        "UI/UX",
+        "Design",
+        "Prototyping"
+      ],
       "creationDate": "2024-05-04",
-      "salaryRange": "$70,000 - $120,000",
-      "companyId": 103
+      "salaryRange": "$70K - $120K",
+      "companyId": 103,
+      "remote": "On Site"
     },
     {
       "id": 7,
       "title": "UX Designer",
       "description": "Design user interfaces and experiences.",
-      "tags": ["UI/UX", "Design", "Prototyping"],
+      "techs": [
+        "UI/UX",
+        "Design",
+        "Prototyping"
+      ],
       "creationDate": "2024-05-04",
-      "salaryRange": "$60,000 - $100,000",
-      "companyId": 104
+      "salaryRange": "$60K - $100K",
+      "companyId": 104,
+      "remote": "Remote"
     },
     {
       "id": 8,
       "title": "Graphic Designer",
       "description": "Create visual concepts and designs.",
-      "tags": ["Photoshop", "Illustrator", "Graphic Design"],
+      "techs": [
+        "Photoshop",
+        "Illustrator",
+        "Graphic Design"
+      ],
       "creationDate": "2024-05-05",
-      "salaryRange": "$55,000 - $95,000",
-      "companyId": 104
+      "salaryRange": "$55K - $95K",
+      "companyId": 104,
+      "remote": "Hybrid"
     },
     {
       "id": 9,
       "title": "DevOps Engineer",
       "description": "Manage and optimize infrastructure and deployments.",
-      "tags": ["DevOps", "AWS", "Docker"],
+      "techs": [
+        "DevOps",
+        "AWS",
+        "Docker"
+      ],
       "creationDate": "2024-05-05",
-      "salaryRange": "$75,000 - $125,000",
-      "companyId": 105
+      "salaryRange": "$75K - $125K",
+      "companyId": 105,
+      "remote": "On Site"
     },
     {
       "id": 10,
       "title": "Cloud Architect",
       "description": "Design and implement cloud solutions.",
-      "tags": ["Cloud Computing", "Azure", "Infrastructure"],
+      "techs": [
+        "Cloud Computing",
+        "Azure",
+        "Infrastructure"
+      ],
       "creationDate": "2024-05-06",
-      "salaryRange": "$85,000 - $135,000",
-      "companyId": 105
+      "salaryRange": "$85K - $135K",
+      "companyId": 105,
+      "remote": "Remote"
     }
   ]
+  
 }
