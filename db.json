@@ -1,6 +1,5 @@
 {
-  "todos":
-  [
+  "todos": [
     {
       "userId": 1,
       "id": 1,
@@ -62,11 +61,11 @@
       "completed": true
     }
   ],
- 
+
   "companies": [
     {
       "id": 101,
-      "logo":"https://www.cubainformacion.tv/storage/portadas/2016/01/66750-la-ciencia-en-servicio-del-comercio.jpg?t=1700083467",
+      "logo": "https://www.cubainformacion.tv/storage/portadas/2016/01/66750-la-ciencia-en-servicio-del-comercio.jpg?t=1700083467",
       "name": "CIDCI Inc.",
       "address": {
         "street": "123 Tech Lane",
@@ -77,7 +76,7 @@
     },
     {
       "id": 102,
-      "logo":"https://media.licdn.com/dms/image/C4E0BAQHTGgdoO46F-g/company-logo_200_200/0/1630589587674?e=1725494400&v=beta&t=P1mwK_m5WKav3RValIXZsUsivEfe9pNtBbsvfe0P6tQ",
+      "logo": "https://media.licdn.com/dms/image/C4E0BAQHTGgdoO46F-g/company-logo_200_200/0/1630589587674?e=1725494400&v=beta&t=P1mwK_m5WKav3RValIXZsUsivEfe9pNtBbsvfe0P6tQ",
       "name": "Data Solutions Inc.",
       "address": {
         "street": "456 Data Drive",
@@ -88,7 +87,7 @@
     },
     {
       "id": 103,
-      "logo":"https://media.licdn.com/dms/image/C4D0BAQF9zCV8xOu0QA/company-logo_200_200/0/1655761173779/labiome_tech_logo?e=1725494400&v=beta&t=Qi2PTma4qLZAwx8Kcqqbs-MY-9y_4uVPHhKh5pGqmNc",
+      "logo": "https://media.licdn.com/dms/image/C4D0BAQF9zCV8xOu0QA/company-logo_200_200/0/1655761173779/labiome_tech_logo?e=1725494400&v=beta&t=Qi2PTma4qLZAwx8Kcqqbs-MY-9y_4uVPHhKh5pGqmNc",
       "name": "Innovative Products",
       "address": {
         "street": "789 Product Road",
@@ -99,7 +98,7 @@
     },
     {
       "id": 104,
-      "logo":"https://media.licdn.com/dms/image/D560BAQFJANcNveon3g/company-logo_200_200/0/1709310943415/prabadin_corp_logo?e=1725494400&v=beta&t=jMGwl8wa4nuf0OfeLH5qJ9H24pkJIR61rezSxUz7Z5Y",
+      "logo": "https://media.licdn.com/dms/image/D560BAQFJANcNveon3g/company-logo_200_200/0/1709310943415/prabadin_corp_logo?e=1725494400&v=beta&t=jMGwl8wa4nuf0OfeLH5qJ9H24pkJIR61rezSxUz7Z5Y",
       "name": "Prabadin Corp.",
       "address": {
         "street": "321 Design Street",
@@ -110,7 +109,7 @@
     },
     {
       "id": 105,
-      "logo":"https://media.licdn.com/dms/image/C4E0BAQFdOATxNNIpgg/company-logo_200_200/0/1630631160607/universidad_de_las_ciencias_informticas_logo?e=1725494400&v=beta&t=JAk3nuA3sErLXPemPZHgu9VcYU5PIzoWcac0BWANk80",
+      "logo": "https://media.licdn.com/dms/image/C4E0BAQFdOATxNNIpgg/company-logo_200_200/0/1630631160607/universidad_de_las_ciencias_informticas_logo?e=1725494400&v=beta&t=JAk3nuA3sErLXPemPZHgu9VcYU5PIzoWcac0BWANk80",
       "name": "Cloud Services Ltd.",
       "address": {
         "street": "654 Cloud Avenue",
@@ -124,12 +123,8 @@
     {
       "id": 1,
       "title": "Software Engineer",
-      "description": "Develop and maintain software applications.",
-      "techs": [
-        "JavaScript",
-        "React",
-        "Node.js"
-      ],
+      "description": "Job Description:\n\nProvide operational support for external and internal software products to increase the products’ availability and reliability.\nConfigure and deploy new software and troubleshoot and resolve issues when things break.\nOptimize and automate work and develop tools as needed to accomplish new tasks.\nHandle a variety assignments and requests that come from various customers including OCC, Helpdesk, Software Support, development teams, and infrastructure teams.\nUtilize application development experience and experience working with application servers such as WildFly and JBoss.\nUse Source Code Management (GitHub, GitLab, and TFS) and continuous integration and continuous deployment tools such as Jenkins.\nUse monitoring tools including Splunk, Grafana, Prometheus, or AWS CloudWatch.\nWork with Linux OS to collaborate with teammates and product owners grooming backlogs of epics and stories for upcoming sprints.\nStay abreast of the latest technology trends through individual and team training opportunities.\nProvide 7x24 operational support for multiple online products on a rotational basis within team.\n\nJob Requirements:\n\nBachelor’s degree in Computer Science, Computer Engineering, Electrical Engineering, or a related field plus five (5) years of experience with application development.\nIn lieu of a Bachelor’s degree and five (5) years of experience, the employer will accept a Master’s degree in Computer Science, Computer Engineering, Electrical Engineering, or a related field plus two (2) years of experience with application development.\nOther experience and skills must include:\nApplication servers and Web servers on Linux OS.\nSource code management including GitHub, GitLab, TFS and continuous integration and continuous deployment (CICD) including Jenkins.\nMonitoring tools including Splunk, Grafana, Prometheus, and AWS CloudWatch.\nPerl, Shell, and Python scripting.\nOrchestration including Docker Compose and Kubernetes.\nAWS public cloud experience.\nConfiguration Management tools such as Ansible scripts and Puppet for Virtual Machine (VM) provisioning.",
+      "techs": ["JavaScript", "React", "Node.js"],
       "creationDate": "2024-05-01",
       "salaryRange": "$70K - $120K",
       "companyId": 101,
@@ -138,12 +133,8 @@
     {
       "id": 2,
       "title": "Backend Developer",
-      "description": "Build and maintain server-side applications.",
-      "techs": [
-        "Java",
-        "Spring",
-        "Microservices"
-      ],
+      "description": "Job Description:\n\nDevelop, enhance, and maintain backend services and APIs to support web and mobile applications.\nCollaborate with frontend developers, product managers, and other stakeholders to understand requirements and deliver high-quality solutions.\nEnsure the performance, security, and scalability of server-side code.\nTroubleshoot, debug, and optimize existing systems to improve performance and resolve issues.\nWrite clean, maintainable, and efficient code following best practices and coding standards.\nParticipate in code reviews to ensure code quality and share knowledge with the team.\nImplement and manage continuous integration and continuous deployment (CI/CD) pipelines.\nStay updated with the latest industry trends and technologies to ensure the backend architecture remains modern and efficient.\n\nJob Requirements:\n\nBachelor’s degree in Computer Science, Software Engineering, or a related field plus three (3) years of experience in backend development.\nIn lieu of a Bachelor’s degree and three (3) years of experience, the employer will accept a Master’s degree in Computer Science, Software Engineering, or a related field plus one (1) year of experience in backend development.\nOther experience and skills must include:\nProficiency in server-side languages such as Python, Java, Node.js, or Ruby.\nExperience with database management systems including SQL and NoSQL databases like MySQL, PostgreSQL, MongoDB, or Redis.\nFamiliarity with RESTful API design and implementation.\nKnowledge of microservices architecture and containerization tools like Docker and Kubernetes.\nExperience with version control systems such as Git.\nUnderstanding of security best practices in backend development.\nFamiliarity with cloud platforms like AWS, Azure, or Google Cloud.\nExperience with automated testing frameworks and tools.\nStrong problem-solving skills and the ability to work independently as well as in a team.",
+      "techs": ["Java", "Spring", "Microservices"],
       "creationDate": "2024-05-02",
       "salaryRange": "$75K - $125K",
       "companyId": 101,
@@ -152,12 +143,8 @@
     {
       "id": 3,
       "title": "Data Scientist",
-      "description": "Analyze and interpret complex data sets.",
-      "techs": [
-        "Python",
-        "Machine Learning",
-        "Data Analysis"
-      ],
+      "description": "Job Description:\n\nAnalyze and interpret complex data sets to provide actionable insights and recommendations.\nDevelop, implement, and maintain machine learning models and algorithms to solve business problems.\nCollaborate with cross-functional teams to understand data needs and deliver data-driven solutions.\nPerform data cleaning, preprocessing, and feature engineering to prepare data for analysis and modeling.\nVisualize data using tools such as Tableau, Power BI, or matplotlib to communicate findings to stakeholders.\nConduct statistical analysis and hypothesis testing to validate models and ensure their robustness.\nAutomate data workflows and processes to improve efficiency and reproducibility.\nStay updated with the latest advancements in data science and machine learning technologies and methodologies.\n\nJob Requirements:\n\nBachelor’s degree in Data Science, Computer Science, Statistics, Mathematics, or a related field plus three (3) years of experience in data science or a related field.\nIn lieu of a Bachelor’s degree and three (3) years of experience, the employer will accept a Master’s degree in Data Science, Computer Science, Statistics, Mathematics, or a related field plus one (1) year of experience in data science or a related field.\nOther experience and skills must include:\nProficiency in programming languages such as Python, R, or SQL.\nExperience with machine learning frameworks and libraries such as TensorFlow, PyTorch, scikit-learn, or XGBoost.\nKnowledge of statistical methods and data analysis techniques.\nFamiliarity with big data technologies like Hadoop, Spark, or Kafka.\nExperience with data visualization tools and libraries.\nStrong problem-solving skills and the ability to work independently as well as in a team.\nExcellent communication skills to present complex information clearly to both technical and non-technical audiences.\nUnderstanding of cloud platforms like AWS, Azure, or Google Cloud for data storage and processing.",
+      "techs": ["Python", "Machine Learning", "Data Analysis"],
       "creationDate": "2024-05-02",
       "salaryRange": "$80K - $130K",
       "companyId": 102,
@@ -166,12 +153,8 @@
     {
       "id": 4,
       "title": "Data Analyst",
-      "description": "Prepare and analyze data for business insights.",
-      "techs": [
-        "SQL",
-        "Excel",
-        "Data Visualization"
-      ],
+      "description": "Job Description:\n\nCollect, analyze, and interpret large datasets to identify trends, patterns, and insights.\nCollaborate with business stakeholders to understand their data needs and provide actionable recommendations.\nDevelop and maintain dashboards and reports using data visualization tools such as Tableau, Power BI, or Excel.\nPerform data cleaning and preprocessing to ensure data accuracy and reliability.\nGenerate ad-hoc reports to support decision-making processes.\nIdentify areas for process improvement and automation to enhance data analysis efficiency.\nWork with data engineering teams to ensure data availability and quality.\nStay updated with industry best practices and emerging trends in data analysis and visualization.\n\nJob Requirements:\n\nBachelor’s degree in Data Science, Computer Science, Statistics, Mathematics, Business, or a related field plus two (2) years of experience in data analysis or a related field.\nIn lieu of a Bachelor’s degree and two (2) years of experience, the employer will accept a Master’s degree in Data Science, Computer Science, Statistics, Mathematics, Business, or a related field plus six (6) months of experience in data analysis or a related field.\nOther experience and skills must include:\nProficiency in data analysis tools and programming languages such as SQL, Python, or R.\nExperience with data visualization tools like Tableau, Power BI, or Excel.\nStrong analytical and problem-solving skills.\nKnowledge of statistical analysis and data mining techniques.\nExcellent communication skills to present data insights clearly to both technical and non-technical audiences.\nAbility to work independently and as part of a team.\nAttention to detail and a commitment to data accuracy and integrity.\nUnderstanding of database management systems and data warehousing.",
+      "techs": ["SQL", "Excel", "Data Visualization"],
       "creationDate": "2024-05-03",
       "salaryRange": "$65K - $110K",
       "companyId": 102,
@@ -180,12 +163,8 @@
     {
       "id": 5,
       "title": "Product Manager",
-      "description": "Oversee product development and launch.",
-      "techs": [
-        "Product Management",
-        "Agile",
-        "Scrum"
-      ],
+      "description": "Job Description:\n\nDefine the product vision, strategy, and roadmap based on customer needs, market trends, and business objectives.\nCollaborate with cross-functional teams including engineering, design, marketing, and sales to deliver high-quality products on time and within budget.\nConduct market research and competitor analysis to identify opportunities and inform product decisions.\nGather and prioritize product and customer requirements, translating them into detailed specifications and user stories.\nManage the product development lifecycle from concept to launch, ensuring alignment with business goals and user needs.\nMonitor product performance and gather user feedback to drive continuous improvement and iteration.\nDevelop and maintain strong relationships with stakeholders, communicating product progress and updates regularly.\nLead product launch activities, including go-to-market planning, training, and marketing communications.\nStay updated with industry trends and emerging technologies to ensure the product remains competitive and innovative.\n\nJob Requirements:\n\nBachelor’s degree in Business, Marketing, Computer Science, Engineering, or a related field plus five (5) years of experience in product management or a related field.\nIn lieu of a Bachelor’s degree and five (5) years of experience, the employer will accept a Master’s degree in Business, Marketing, Computer Science, Engineering, or a related field plus three (3) years of experience in product management or a related field.\nOther experience and skills must include:\nStrong understanding of product development processes and methodologies, including Agile and Scrum.\nExcellent analytical and problem-solving skills.\nExperience with product management tools such as JIRA, Trello, or Aha!.\nProven ability to lead cross-functional teams and manage multiple projects simultaneously.\nStrong communication and interpersonal skills, with the ability to present complex information clearly to both technical and non-technical audiences.\nAbility to think strategically and execute methodically.\nExperience in market research, user research, and data analysis.\nKnowledge of UX/UI principles and best practices.\nUnderstanding of software development and technology trends.",
+      "techs": ["Product Management", "Agile", "Scrum"],
       "creationDate": "2024-05-03",
       "salaryRange": "$90K - $140K",
       "companyId": 103,
@@ -194,12 +173,8 @@
     {
       "id": 6,
       "title": "Product Designer",
-      "description": "Design and optimize product interfaces.",
-      "techs": [
-        "UI/UX",
-        "Design",
-        "Prototyping"
-      ],
+      "description": "Job Description:\n\nCollaborate with product managers, engineers, and stakeholders to understand user needs and business goals.\nCreate wireframes, prototypes, and high-fidelity designs for web and mobile applications.\nConduct user research and usability testing to gather feedback and iterate on design solutions.\nDevelop and maintain design systems and guidelines to ensure a consistent user experience across all products.\nTranslate complex ideas into intuitive and accessible user interfaces.\nWork closely with development teams to ensure design feasibility and fidelity during implementation.\nStay updated with the latest design trends, tools, and technologies to continuously improve the design process.\nPresent design concepts and solutions to stakeholders, incorporating their feedback into final designs.\nContribute to a culture of innovation and creativity within the design team.\n\nJob Requirements:\n\nBachelor’s degree in Design, Human-Computer Interaction, Fine Arts, or a related field plus three (3) years of experience in product design or a related field.\nIn lieu of a Bachelor’s degree and three (3) years of experience, the employer will accept a Master’s degree in Design, Human-Computer Interaction, Fine Arts, or a related field plus one (1) year of experience in product design or a related field.\nOther experience and skills must include:\nProficiency in design tools such as Sketch, Figma, Adobe XD, or InVision.\nStrong portfolio demonstrating experience with user-centered design and interaction design.\nKnowledge of HTML, CSS, and JavaScript is a plus.\nExperience with user research methods and usability testing.\nExcellent visual design skills and attention to detail.\nStrong communication and collaboration skills.\nAbility to work independently and as part of a team.\nUnderstanding of responsive design and accessibility principles.",
+      "techs": ["UI/UX", "Design", "Prototyping"],
       "creationDate": "2024-05-04",
       "salaryRange": "$70K - $120K",
       "companyId": 103,
@@ -208,12 +183,8 @@
     {
       "id": 7,
       "title": "UX Designer",
-      "description": "Design user interfaces and experiences.",
-      "techs": [
-        "UI/UX",
-        "Design",
-        "Prototyping"
-      ],
+      "description": "Job Description:\n\nConduct user research and gather insights to understand user needs, behaviors, and pain points.\nCreate user personas, journey maps, wireframes, prototypes, and high-fidelity designs to guide the user experience.\nCollaborate with product managers, developers, and other stakeholders to define and implement innovative solutions for product direction, visuals, and experience.\nConduct usability testing and gather feedback to iterate on design solutions and improve user satisfaction.\nDevelop and maintain UX design guidelines and standards to ensure consistency across all products.\nWork closely with development teams to ensure the feasibility and fidelity of designs during implementation.\nStay updated with the latest UX design trends, tools, and best practices to continuously improve the design process.\nPresent design concepts and solutions to stakeholders and incorporate their feedback into final designs.\nAdvocate for the user and promote a user-centered design approach within the organization.\n\nJob Requirements:\n\nBachelor’s degree in Design, Human-Computer Interaction, Psychology, or a related field plus three (3) years of experience in UX design or a related field.\nIn lieu of a Bachelor’s degree and three (3) years of experience, the employer will accept a Master’s degree in Design, Human-Computer Interaction, Psychology, or a related field plus one (1) year of experience in UX design or a related field.\nOther experience and skills must include:\nProficiency in UX design tools such as Sketch, Figma, Adobe XD, or InVision.\nStrong portfolio demonstrating experience with user-centered design and interaction design.\nExperience with user research methods and usability testing.\nExcellent visual design skills and attention to detail.\nStrong communication and collaboration skills.\nAbility to work independently and as part of a team.\nUnderstanding of responsive design and accessibility principles.\nKnowledge of HTML, CSS, and JavaScript is a plus.",
+      "techs": ["UI/UX", "Design", "Prototyping"],
       "creationDate": "2024-05-04",
       "salaryRange": "$60K - $100K",
       "companyId": 104,
@@ -222,12 +193,8 @@
     {
       "id": 8,
       "title": "Graphic Designer",
-      "description": "Create visual concepts and designs.",
-      "techs": [
-        "Photoshop",
-        "Illustrator",
-        "Graphic Design"
-      ],
+      "description": "Job Description:\n\nCreate visually appealing graphics and layouts for various digital and print materials including websites, social media, advertisements, brochures, and presentations.\nCollaborate with marketing, product, and development teams to understand project requirements and deliver high-quality design solutions.\nDevelop and maintain a consistent brand identity across all design projects.\nUse design software such as Adobe Creative Suite (Photoshop, Illustrator, InDesign) to create and refine graphics.\nPresent design concepts to stakeholders and incorporate feedback to finalize designs.\nStay updated with the latest design trends, tools, and best practices to ensure innovative and contemporary designs.\nPrepare and optimize graphics for web and print, ensuring they meet technical requirements and quality standards.\nWork with external vendors such as printers and agencies to produce final design materials.\nManage multiple design projects simultaneously, meeting deadlines and maintaining high standards of quality.\n\nJob Requirements:\n\nBachelor’s degree in Graphic Design, Visual Arts, or a related field plus two (2) years of experience in graphic design or a related field.\nIn lieu of a Bachelor’s degree and two (2) years of experience, the employer will accept a Master’s degree in Graphic Design, Visual Arts, or a related field plus six (6) months of experience in graphic design or a related field.\nOther experience and skills must include:\nProficiency in Adobe Creative Suite (Photoshop, Illustrator, InDesign) and other design tools.\nStrong portfolio demonstrating a range of design skills and creativity.\nExcellent visual design skills and attention to detail.\nStrong communication and collaboration skills.\nAbility to work independently and as part of a team.\nKnowledge of print production processes and requirements.\nUnderstanding of web design principles and best practices is a plus.\nAbility to manage multiple projects and meet deadlines in a fast-paced environment.",
+      "techs": ["Photoshop", "Illustrator", "Graphic Design"],
       "creationDate": "2024-05-05",
       "salaryRange": "$55K - $95K",
       "companyId": 104,
@@ -236,12 +203,8 @@
     {
       "id": 9,
       "title": "DevOps Engineer",
-      "description": "Manage and optimize infrastructure and deployments.",
-      "techs": [
-        "DevOps",
-        "AWS",
-        "Docker"
-      ],
+      "description": "Job Description:\n\nDesign, implement, and manage CI/CD pipelines to ensure efficient and reliable software delivery.\nCollaborate with development, QA, and operations teams to automate and streamline build, test, and deployment processes.\nMonitor system performance, identify issues, and implement solutions to maintain high availability and reliability of applications.\nManage infrastructure using Infrastructure as Code (IaC) tools such as Terraform, Ansible, or CloudFormation.\nEnsure security best practices are followed in the DevOps processes and infrastructure.\nImplement and manage containerization and orchestration solutions using Docker and Kubernetes.\nPerform regular system maintenance and upgrades, ensuring minimal downtime and maximum efficiency.\nCreate and maintain comprehensive documentation for all implemented processes and infrastructure.\nStay updated with the latest DevOps tools, technologies, and best practices to continuously improve the DevOps processes.\nProvide support and troubleshooting assistance to development and operations teams as needed.\n\nJob Requirements:\n\nBachelor’s degree in Computer Science, Information Technology, or a related field plus three (3) years of experience in DevOps or a related field.\nIn lieu of a Bachelor’s degree and three (3) years of experience, the employer will accept a Master’s degree in Computer Science, Information Technology, or a related field plus one (1) year of experience in DevOps or a related field.\nOther experience and skills must include:\nProficiency with CI/CD tools such as Jenkins, GitLab CI, or CircleCI.\nExperience with containerization and orchestration tools such as Docker and Kubernetes.\nKnowledge of cloud platforms such as AWS, Azure, or Google Cloud.\nExperience with Infrastructure as Code (IaC) tools like Terraform, Ansible, or CloudFormation.\nStrong scripting skills in languages such as Python, Bash, or PowerShell.\nUnderstanding of version control systems such as Git.\nKnowledge of monitoring and logging tools such as Prometheus, Grafana, ELK Stack, or Splunk.\nStrong problem-solving skills and the ability to work independently as well as part of a team.\nExcellent communication and collaboration skills.\nUnderstanding of security best practices in a DevOps environment.",
+      "techs": ["DevOps", "AWS", "Docker"],
       "creationDate": "2024-05-05",
       "salaryRange": "$75K - $125K",
       "companyId": 105,
@@ -250,17 +213,12 @@
     {
       "id": 10,
       "title": "Cloud Architect",
-      "description": "Design and implement cloud solutions.",
-      "techs": [
-        "Cloud Computing",
-        "Azure",
-        "Infrastructure"
-      ],
+      "description": "Job Description:\n\nDesign and implement scalable, secure, and cost-effective cloud architectures for various applications and services.\nCollaborate with development, operations, and security teams to define cloud strategies and solutions that meet business requirements.\nEvaluate and select appropriate cloud services and tools to optimize performance, reliability, and cost-efficiency.\nDevelop and maintain infrastructure as code (IaC) templates using tools such as Terraform, CloudFormation, or ARM Templates.\nEnsure cloud solutions adhere to industry best practices and organizational security policies.\nMonitor cloud environments to ensure optimal performance, reliability, and security.\nProvide guidance and support for cloud migration initiatives, ensuring minimal disruption to existing services.\nStay updated with the latest cloud technologies, trends, and best practices to continuously improve cloud architectures.\nCreate and maintain comprehensive documentation for all cloud architectures and solutions.\nConduct training sessions and workshops to educate teams on cloud best practices and tools.\n\nJob Requirements:\n\nBachelor’s degree in Computer Science, Information Technology, or a related field plus five (5) years of experience in cloud architecture or a related field.\nIn lieu of a Bachelor’s degree and five (5) years of experience, the employer will accept a Master’s degree in Computer Science, Information Technology, or a related field plus three (3) years of experience in cloud architecture or a related field.\nOther experience and skills must include:\nProficiency with major cloud platforms such as AWS, Azure, or Google Cloud.\nExperience with infrastructure as code (IaC) tools like Terraform, CloudFormation, or ARM Templates.\nStrong understanding of cloud security best practices and tools.\nExperience with containerization and orchestration tools such as Docker and Kubernetes.\nKnowledge of networking principles and services, including VPC, DNS, load balancing, and firewalls.\nStrong scripting skills in languages such as Python, Bash, or PowerShell.\nExperience with monitoring and logging tools such as CloudWatch, Stackdriver, or Azure Monitor.\nExcellent problem-solving skills and the ability to work independently as well as part of a team.\nStrong communication and collaboration skills.\nRelevant cloud certifications such as AWS Certified Solutions Architect, Azure Solutions Architect Expert, or Google Cloud Professional Cloud Architect are a plus.",
+      "techs": ["Cloud Computing", "Azure", "Infrastructure"],
       "creationDate": "2024-05-06",
       "salaryRange": "$85K - $135K",
       "companyId": 105,
       "remote": "Remote"
     }
   ]
-  
 }
